@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:OfferMakerAPP}/OfferMaker",
+            "name": "Debug OfferMaker (OfferMaker)",
+            "program": "${workspaceFolder:OfferMakerAPP}/OfferMaker/.build/debug/OfferMaker",
+            "preLaunchTask": "swift: Build Debug OfferMaker (OfferMaker)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:OfferMakerAPP}/OfferMaker",
+            "name": "Release OfferMaker (OfferMaker)",
+            "program": "${workspaceFolder:OfferMakerAPP}/OfferMaker/.build/release/OfferMaker",
+            "preLaunchTask": "swift: Build Release OfferMaker (OfferMaker)"
+        }
+    ]
+}
